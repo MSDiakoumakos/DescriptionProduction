@@ -1,0 +1,85 @@
+Intermediate Results after 300 articles:
+
+=== TFIDF ===
+rouge1: 0.2822
+rouge2: 0.0888
+rougeL: 0.1824
+
+=== TextRank ===
+rouge1: 0.2914
+rouge2: 0.0929
+rougeL: 0.1802
+
+=== T5 ===
+rouge1: 0.1461
+rouge2: 0.0593
+rougeL: 0.1002
+
+=== BERTScore ===
+rouge1: 0.2534
+rouge2: 0.0710
+rougeL: 0.1657
+
+=== Hybrid ===
+rouge1: 0.2577
+rouge2: 0.0733
+rougeL: 0.1690
+Processing articles: 100%|██████████████████████████████████████████████████████████| 60/60 [2:04:45<00:00, 124.76s/it]
+
+Final Evaluation Results:
+==================
+
+=== TFIDF ===
+rouge1:
+  Mean: 0.2822
+  Std:  0.1183
+rouge2:
+  Mean: 0.0888
+  Std:  0.0900
+rougeL:
+  Mean: 0.1824
+  Std:  0.0881
+
+=== TextRank ===
+rouge1:
+  Mean: 0.2914
+  Std:  0.1276
+rouge2:
+  Mean: 0.0929
+  Std:  0.0883
+rougeL:
+  Mean: 0.1802
+  Std:  0.0829
+
+=== T5 ===
+rouge1:
+  Mean: 0.1461
+  Std:  0.0657
+rouge2:
+  Mean: 0.0593
+  Std:  0.0491
+rougeL:
+  Mean: 0.1002
+  Std:  0.0508
+
+=== BERTScore ===
+rouge1:
+  Mean: 0.2534
+  Std:  0.1386
+rouge2:
+  Mean: 0.0710
+  Std:  0.0931
+rougeL:
+  Mean: 0.1657
+  Std:  0.0985
+
+=== Hybrid ===
+rouge1:
+  Mean: 0.2577
+  Std:  0.1182
+rouge2:
+  Mean: 0.0733
+  Std:  0.0782
+rougeL:
+  Mean: 0.1690
+  Std:  0.0818

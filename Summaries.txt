@@ -1,0 +1,22 @@
+Reference Summary:
+----------------
+Two former cyber-security experts at Russia's FSB intelligence agency and another at a software firm have been charged with treason, a lawyer says.
+
+Generated Summaries:
+------------------
+
+TF-IDF Summary:
+But the BBC's Sarah Rainsford in Moscow says claims from anonymous sources continue to circulate around the Russian capital, including one that links the arrests to a Russian server-renting firm accused of involvement in the hacking of voting systems in two US states.
+
+TextRank Summary:
+Some reports suggested the arrests could be linked to claims of Russian hacking during the US election.
+
+T5 Abstractive Summary:
+some reports suggest arrests could be linked to claims of Russian hacking . the Kremlin denied the claim . the names of those charged were given by a lawyer acting for one of the men . he was formerly deputy head ment was detained in dramatic style and led out of a meeting with a bag over his head . he inue to circulate around the capital, including one that links arrests to a server-renting firm accused of the men had links to a hacking group known as Shaltai Boltai (Humpty Du
+
+BERTScore Summary:
+Some reports suggested the arrests could be linked to claims of Russian hacking during the US election.
+
+Hybrid Summary:
+Your max_length is set to 27, but your input_length is only 25. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=12)
+some reports suggest arrests could be linked to claims of Russian hacking during the US election .
